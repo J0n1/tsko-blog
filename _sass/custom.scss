@@ -1,0 +1,16 @@
+/*- Custom style -*/
+
+// -- Put custom style under this point -- //
+
+
+.icon-fa {
+        color: $main-color!important;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 28px;
+
+        &:hover,
+        &:focus {
+            color: darken($main-color, 5%)!important;
+        }
+}
